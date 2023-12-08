@@ -17,7 +17,7 @@ export const Scripts: ModdedBattleScriptsData = {
 	init() {
 		// #region Functions
 		const changeNatDexTier = (pokemon: string, tier: string) => {
-			this.modData('FormatsData', pokemon.toLowerCase().replace(/ +/g, '').replace('-', '')).natDexTier = tier.toUpperCase();
+			// this.modData('FormatsData', pokemon.toLowerCase().replace(/ +/g, '').replace('-', '')).natDexTier = tier.toUpperCase();
 		};
 		const changeTier = (pokemon: string, tier: string) => {
 			this.modData('FormatsData', pokemon.toLowerCase().replace(/ +/g, '').replace('-', '')).tier = tier.toUpperCase();
