@@ -13,6 +13,7 @@ import Gen8 from './gens/gen8';
 import Gen9 from './gens/gen9';
 
 export const Scripts: ModdedBattleScriptsData = {
+	gen: 9,
 	inherit: 'gen9',
 	init() {
 		// #region Functions
